@@ -6,3 +6,22 @@
     font-family: "Rajdhani";
     font-weight: bold;
 }
+.accordion {
+    --bs-accordion-active-bg: #E4A6B6
+}
+.mobile-item{
+    display: none;
+}
+@media (max-width: 768px) {
+    .mobile-item {
+      display: block;
+    }
+}
+.desktop-item{
+    display: none;
+}
+@media (min-width: 768px) {
+    .desktop-item {
+      display: block;
+    }
+}
