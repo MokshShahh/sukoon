@@ -17,10 +17,11 @@
       display: block;
     }
 }
+
 .desktop-item{
     display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 766px) {
     .desktop-item {
       display: block;
     }
