@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Start of the HTML document with language set to English -->
+<head>
+  <meta charset="UTF-8"> <!-- Set the character encoding to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures proper scaling on different devices, especially mobile -->
+  <title>Services - Headaches</title> <!-- Title of the page displayed in the browser tab -->
+
+  <!-- Link to Bootstrap CSS framework from a CDN (Content Delivery Network) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* Custom styling for the body element */
+    body {
+      background-color: #f1f1f1; /* Light grey background for the page */
+      font-family: 'Segoe UI', sans-serif; /* Sets the font to Segoe UI */
+    }
+
+    /* Custom styling for the card component */
+    .card-custom {
+      border-radius: 15px; /* Rounded corners for the card */
+      background-color: white; /* White background for the card */
+      padding: 20px; /* Adds padding inside the card */
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+      padding-top: 35px; /* Adds extra padding at the top of the card to create space between the image and the content */
+    }
+
+    /* Custom styling for the image */
+    .img-circle {
+      border-radius: 30%; /* Makes the image circular */
+      width: 100%; /* Ensures the image takes the full width available */
+      max-width: 800px; /* Limits the maximum width of the image */
+      object-fit: cover; /* Ensures the image covers the whole area without distorting */
+      margin-top: 0; /* Removes any margin from the top of the image */
+    }
+
+    /* Custom styling for the section title */
+    .section-title {
+      font-size: 16px; /* Sets the font size for the section title */
+      color: #555; /* Sets the color of the section title to a dark gray */
+      font-weight: 600; /* Makes the section title bold */
+    }
+
+    /* Custom styling for the main title */
+    .main-title {
+      font-size: 32px; /* Sets the font size for the main title */
+      font-weight: 700; /* Makes the main title bold */
+      color: #2c2c3b; /* Sets the color of the main title to dark blue-gray */
+    }
+
+    /* Custom styling for the unordered list */
+    ul {
+      padding-left: 1.2rem; /* Adds left padding to the list for better readability */
+    }
+
+    /* Custom styling for each list item */
+    ul li {
+      margin-bottom: 0.3rem; /* Adds a small margin at the bottom of each list item */
+    }
+  </style>
+</head>
+<body> <!-- Start of the body section -->
+
+  <!-- Main container for the content of the page -->
+  <div class="container py-5">
+    <!-- Text section with title and main title -->
+    <div class="text-center mb-4"> 
+      <!-- "text-center" centers the text inside, "mb-4" adds margin to the bottom of the section -->
+      <div class="section-title">SERVICES</div> <!-- Section title -->
+      <div class="main-title">HEADACHES</div> <!-- Main title -->
+    </div>
+
+    <!-- Row to organize the content into columns -->
+    <div class="row align-items-start"> 
+      <!-- "row" is a Bootstrap class that organizes content into a row, "align-items-start" aligns items at the start (top) of the row -->
+      
+      <!-- Column for the image (on the left side) -->
+      <div class="col-md-3 d-flex justify-content-center">
+        <!-- "col-md-3" sets the column width to 3/12 of the page width (on medium screens and up) -->
+        <!-- "d-flex" makes the div a flex container, "justify-content-center" centers the content (image) within the column -->
+        <img src="./images/headaches.jpg" alt="Headache Image" class="img-fluid img-circle">
+        <!-- "img-fluid" makes the image responsive (scales with the container), "img-circle" adds the circular border radius -->
+      </div>
+
+      <!-- Column for the text content (on the right side) -->
+      <div class="col-md-9">
+        <!-- "col-md-8" sets the column width to 8/12 of the page width (on medium screens and up) -->
+        <div class="card-custom">
+          <!-- Custom card for the main content -->
+          <p>Almost everyone experiences headaches during their lifetime! Over 50% of the population reports having regular headaches in any given year and rely on repeated analgesics to alleviate the symptoms. According to the International Classification of Headache Disorders (ICHD), there are four primary types of headaches - Migraines, Tension-type headaches, Cluster headaches, and other Primary headaches. Additionally, a headache may also be secondary to (be a symptom of) an underlying health problem requiring medical attention. Secondary causes of headaches include head or neck trauma and injuries, stroke, intracranial hemorrhage, and vascular malformations.</p>
+          
+          <p><strong>What are the symptoms of headaches?</strong> <br>
+            Symptoms of headaches can be so varied and at the same time so overlapped that it can be difficult to diagnose.
+          <ul>
+            <li>Throbbing/ deep, dull, achy</li>
+            <li>Accompanied by nausea or vomiting</li>
+            <li>Sensitivity to light and visual changes</li>
+            <li>Distribution and location of pain may vary based on the type of the headache</li>
+          </ul>
+          
+          <p>Accurate diagnosis of frequent headaches is critical to finding relief when symptoms occur and establishing both a short-term and long-term curative health goal. People suffering from Migraine, Sinus, and Tension headache can at last look forward to normal, productive, and fulfilled lives, following a number of significant medical breakthroughs in the diagnosis and treatment of headaches.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Link to Bootstrap JS bundle (includes Popper.js for certain interactive components) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
