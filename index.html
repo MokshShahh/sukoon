@@ -25,11 +25,11 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 pb-0">
-      <div style="background-color: #f2f0ef" class="container-fluid">
+    <nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-body-tertiary pt-0 pb-0">
+      <div style="background-color: #302939" class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            style="height: 105px; width: 95px"
+            style="height: 70px; width: 70px"
             src="./images/navbar_logo.png"
           />
         </a>
@@ -46,7 +46,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul
-            class="d-flex flex-grow-1 justify-content-center navbar-nav me-auto mb-2 mb-lg-0"
+            class="d-flex flex-grow-1 justify-content-center navbar-nav me-auto mb-2 mb-lg-0 text-center"
           >
             <li class="nav-item px-3">
               <a class="nav-link active" aria-current="page" href="#"
@@ -78,19 +78,23 @@
               >
             </li>
           </ul>
+          <div class="py-3 d-flex justify-content-center">
           <button
             class="btn btn-sm rounded-5 p-3 px-4"
-            style="color: black; border-color: black"
+            style="color: rgb(255, 255, 255); border-color: rgb(255, 255, 255)"
             type="button"
           >
             Contact Us
           </button>
         </div>
+        </div>
       </div>
     </nav>
-
+    <!-- to adjust for fixed navbar -->
+    <div class="row" style="height: 10vh;"></div>
     <!-- hero section -->
-    <div class="container-fluid" style="background-color: #f2f0ef">
+    <div class="container-fluid" style="background-color: #f2f0ef; height: 80vh;">
+      
       <div class="row align-items-center gx-5">
         <div class="col-12 col-md-6 text-center fs-1 font-roboto">
           <div>
@@ -173,7 +177,7 @@
       class="container-fluid m-0 text-center"
       style="background-color: #e5e5e5"
     >
-      <div class="p-4">
+      <div class="p-4 py-5">
         <div>Services we</div>
         <div class="font-rajdhani fs-1">Specialize in</div>
       </div>
@@ -258,7 +262,7 @@
     <div class="row">
         <div class="font-roboto col-12 col-md-6 text-start d-flex flex-column justify-content-center px-5">
             <div>
-            <div class="font-rajdhani fs-3 pt-5" style="font-weight: lighter;">ABOUT ME</div>
+            <div class="font-rajdhani fs-3" style="font-weight: lighter;">ABOUT ME</div>
             <div class="font-rajdhani fs-3 pb-5">I’m Dr. Raashi Khatri Panjabi</div>
             <div class="fs-7" style="font-weight: lighter;">
                 Dr. Raashi Khatri Panjabi is an MD with a specialization in Headaches,  Chronic pain and Jaw joint Disorders. She pursued her Master’s degree at the prestigious Rutgers University, USA formerly known as the  University of Medicine and Dentistry of New Jersey (UMDNJ) in Orofacial  Pain and TMJ Disorders.
@@ -333,12 +337,15 @@
     </div>
     <div class="col-12 col-md-6 text-center d-flex flex-column justify-content-center px-5">
       <div class="font-rajdhani fs-1">Know if Sukoon is for you</div>
-      <a
+      <div class="py-2">
+      <button
                 href="#"
-                class="btn btn-outline-primary align-items-center"
+                class="btn btn-md btn-outline-primary align-items-center"
                 style="border-color: #ed7598; color: #ed7598"
-                >Explore</a
-            >
+                >
+                Explore
+    </button>
+    </div>       
     </div>
   </div>
 </div>
