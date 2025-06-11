@@ -3,7 +3,7 @@
     font-weight: bold;
 }
 .font-rajdhani{
-    font-family: "Rajdhani";
+    font-family: "Helvetica";
     font-weight: bold;
 }
 .accordion {
@@ -50,3 +50,19 @@
     height: 10rem;
   }
 }
+
+.btn:hover {
+  background-color: #ed7598;
+  color: white !important; 
+  transform: scale(1.05);
+
+}
+.btn{
+  padding: 10px 30px;
+  background-color: #e7bcc8;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+

@@ -92,8 +92,7 @@
           <div class="py-3 d-flex justify-content-center">
             <a href="#contactus">
           <button
-            class="btn btn-sm rounded-5 p-3 px-4"
-            style="color: rgb(255, 255, 255); border-color: rgb(255, 255, 255)"
+            class="btn  rounded-5 p-3 px-4"
             type="button"
             
           >
@@ -109,7 +108,7 @@
     <!-- hero section -->
     <div class="container-fluid" style="background-color: #f2f0ef">      
       <div class="row align-items-center gx-5">
-        <div class="col-12 col-md-6 text-center fs-1 mt-5 font-roboto">
+        <div class="col-12 col-md-6 text-center fs-1 mt-5 font-roboto p-5">
           <div>
             The center for orofacial pain is your key to becoming pain free
           </div>
@@ -516,8 +515,8 @@
     </div>
 
     <!-- Image Column -->
-    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-      <img src="./images/Aboutme.png" alt="About me" class="img-fluid" style="height: 70%; object-fit: contain;" />
+    <div class="col-12 col-md-6 d-flex flex-column justify-content-center " style="border-radius: 20px; overflow: hidden;">
+      <img src="./images/Aboutme.png" alt="About me" class="img-fluid" style="height: 80%; object-fit: cover; border-radius: 20px;" />
     </div>
   </div>
 </div>
@@ -528,7 +527,7 @@
 <div class="container-fluid" style="background-color: #e5e5e5;">
   <div class="row">
     <div class="col-12 col-md-6 text-center d-flex flex-column justify-content-center px-5" id="knowmore">
-      <img src="./images/facialpain.jpg" alt="About me" class="img-fluid rounded-5" style="height: 70%; object-fit: contain;" />
+      <img src="./images/facialpain.jpg" alt="About me" class="img-fluid rounded-5" style="object-fit: cover; border-radius: 20px;" />
     </div>
     <div class="col-12 col-md-6 text-center d-flex flex-column justify-content-center px-5">
       <div class="font-rajdhani fs-1">What do we mean by facial pain?</div>
@@ -578,7 +577,7 @@
   <div class="row align-items-center mt-5">
     <!-- Left Side Image -->
     <div class="col-12 col-md-6 text-center mb-4 mb-md-0">
-      <img src="./images/dentalvisual.jpg" alt="About me" class="img-fluid" style="max-height: 80vh; object-fit: contain;" />
+      <img src="./images/dentalvisual.jpg" alt="About me" class="img-fluid" style="max-height: 80vh; object-fit: contain; border-radius: 20px;" />
     </div>
 
     <!-- Right Side Text & Button -->
@@ -1049,12 +1048,13 @@ life.   Over the past 7 years, Dr Raashi has treated me with warmth, compassion 
         Get in Touch
       </div>
       <div>
+      <form target="_blank" action="https://formsubmit.co/moksh13112006@gmail.com" method="POST"> 
       <div style="background-color: transparent;" class="input-group mb-3 rounded-2">
-        <input style="background-color: transparent; border: solid black; border-width: 1px;" type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+        <input style="background-color: transparent; border: solid black; border-width: 1px;" type="text" class="form-control" placeholder="Name" name="Name" aria-label="Username" aria-describedby="basic-addon1">
       </div>
       
       <div style="background-color: transparent;" class="input-group mb-3 rounded-2">
-        <input style="background-color: transparent; border: solid black; border-width: 1px;" type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <input name="Email" style="background-color: transparent; border: solid black; border-width: 1px;" type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <span  class="input-group-text" id="basic-addon2">@example.com</span>
       </div>
       
@@ -1062,23 +1062,25 @@ life.   Over the past 7 years, Dr Raashi has treated me with warmth, compassion 
       
       <div class="input-group mb-3 rounded-2" style="border: solid black; border-width: 1px;">
         <span style="background-color: transparent;" class="input-group-text border">☏</span>
-        <input style="background-color: transparent;" type="text" placeholder="Phone Number" class="form-control border" aria-label="Amount (to the nearest dollar)">
+        <input name="Number" style="background-color: transparent;" type="text" placeholder="Phone Number" class="form-control border" aria-label="Amount (to the nearest dollar)">
       </div>
       
       <div class="input-group mb-3 rounded-2" style="border: solid black; border-width: 1px;">
         <span style="background-color: transparent;" class="input-group-text">Message</span>
-        <textarea style="background-color: transparent;" class="form-control" aria-label="With textarea"></textarea>
+        <textarea name="Message" style="background-color: transparent;" class="form-control" aria-label="With textarea"></textarea>
       </div>
 
       <div class="input-group mb-3 rounded-2" style="border: solid black; border-width: 1px;">
         <label style="background-color: transparent;" class="input-group-text" for="inputGroupSelect01">How did You Find us</label>
-        <select class="form-select" id="inputGroupSelect01">
+        <select name="how they heard about us" class="form-select" id="inputGroupSelect01">
           <option selected>Choose...</option>
           <option value="1">One</option>
           <option value="2">Two</option>
           <option value="3">Three</option>
         </select>
       </div>
+      <center><button type="submit" class="btn rounded-2 px-3 py-2 mt-3 mb-3">Submit</button></center>
+
       <div class="d-flex pb-5 justify-content-evenly flex-wrap gap-3">
         <div class="card shadow-sm" style="width: 16rem; background-color: transparent; border: none;">
           <div class="d-flex align-items-center p-3">
